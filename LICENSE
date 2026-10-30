@@ -1,0 +1,35 @@
+個人非商業使用授權（Personal Non-Commercial License）
+
+Copyright (c) 2026 DWyatb
+
+本授權適用於本 repo 中由作者撰寫的程式碼、文件與素材（以下稱「本軟體」）。
+第三方軟體與模型（Remotion、BreezyVoice 等，見 README「來源與授權」）不在本授權範圍內，依各自的授權條款使用。
+
+1. 允許：任何人可以為了「個人、非商業」目的，免費檢視、下載、執行與修改本軟體。
+2. 禁止商業使用：不得將本軟體或其修改版本用於任何商業目的，包括但不限於販售、出租、
+   再授權、作為付費產品或服務的一部分，或用於營利組織的業務。
+3. 散布：如散布本軟體或其修改版本，必須保留本授權全文與上方版權聲明，且散布本身不得收取費用。
+4. 商業使用須另外取得作者的書面同意。
+5. 免責聲明：本軟體「按現狀」提供，不附帶任何明示或默示的保證。作者不對因使用本軟體所生的任何損害負責。
+
+---
+
+Personal Non-Commercial License
+
+Copyright (c) 2026 DWyatb
+
+This license covers the code, documentation and assets written by the author in this repository
+(the "Software"). Third-party software and models (Remotion, BreezyVoice, etc.; see "來源與授權"
+in README) are not covered and are used under their own licenses.
+
+1. Permission is granted, free of charge, to view, download, run and modify the Software for
+   personal, non-commercial purposes only.
+2. No commercial use. The Software and any modified version may not be used for any commercial
+   purpose, including selling, renting, sublicensing, offering it as part of a paid product or
+   service, or using it in the business of a for-profit organization.
+3. Any redistribution of the Software or a modified version must include this license and the
+   copyright notice above, and must be free of charge.
+4. Commercial use requires separate written permission from the author.
+5. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT
+   SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE SOFTWARE
+   OR ITS USE.

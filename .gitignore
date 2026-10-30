@@ -1,0 +1,16 @@
+node_modules/
+.remotion/
+# deck.py timing 產生：目前要輸出的專案＋同步給 Remotion 的素材
+src/deck/active.ts
+public/
+# Kaggle 送出用的暫存筆記本與下載
+projects/*/kaggle/
+projects/*/raw_new/
+projects/*/batch.csv
+# 影片太大不進 git，只留在本機 projects/<name>/out/
+projects/*/out/*.mp4
+# 每個人自己的設定（Kaggle 帳號名稱）；範本是 config.example.json
+config.json
+# 暫存產生檔：手動 Kaggle 用的程式碼、試聽
+projects/*/out/kaggle-cells.txt
+projects/*/out/sample-*.wav

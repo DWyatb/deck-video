@@ -1,0 +1,18 @@
+# 本機補丁層：在已建好的 breezyvoice:latest 上補齊執行時缺的東西，不用整個重建。
+#   docker build -f Dockerfile.fix -t breezyvoice:fixed .
+FROM breezyvoice:latest
+ENV PATH="/root/.local/bin/:$PATH"
+
+# GPU 推論時 cuDNN 要載入 libnvrtc，runtime 基底映像沒有
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends cuda-nvrtc-11-8 && \
+    apt-get clean && rm -rf /var/lib/apt/lists/* && \
+    L=$(find / -name "libnvrtc.so.*" 2>/dev/null | grep -v builtins | head -1) && \
+    ln -sf "$L" "$(dirname $L)/libnvrtc.so" && ldconfig   # cuDNN 找的是不帶版本號的 libnvrtc.so
+
+# HyperPyYAML 1.2.2 不相容新版 ruamel.yaml；cosyvoice 執行時要 pkg_resources
+RUN uv pip install "ruamel.yaml==0.17.40" "setuptools<70" --index-strategy unsafe-best-match
+
+# onnxruntime-gpu 要求明確指定 providers；g2pw 沒指定，讓它在 CPU 跑（模型很小）
+RUN sed -i 's|sess_options=sess_options)|sess_options=sess_options, providers=["CPUExecutionProvider"])|' \
+    .venv/lib/python3.10/site-packages/g2pw/api.py

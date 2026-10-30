@@ -1,0 +1,19 @@
+{
+  "title": "範例簡報",
+  "theme": "default",
+  "voice": { "engine": "sapi", "tempo": 1.0, "sapi": { "voice": "Microsoft Hanhan Desktop", "rate": 1 } },
+  "pronounce": { "SYS.2": "SYS 點二" },
+  "slides": [
+    { "id": "cover", "type": "cover", "year": "2026", "org": "Your Company", "title": "範例簡報",
+      "subtitle": [ { "text": "一份 deck.json，同時產出影片、字幕與 PPT。" }, { "text": "版型由 theme 決定。", "strong": true } ],
+      "narration": "這是範例簡報。一份內容檔，同時產出影片、字幕和 PPT。" },
+    { "id": "points", "type": "bullets", "kicker": "重點", "title": "三種常用頁型",
+      "items": [ "bullets：條列", "boxes：三格方框", "steps：編號流程" ], "note": "screen 頁型需要先截圖",
+      "narration": "常用的頁型有條列、方框和流程。截圖頁要先跑截圖步驟。" },
+    { "id": "flow", "type": "steps", "kicker": "流程", "title": "從內容到輸出", "legend": { "accent": "自動", "coral": "需要人" },
+      "steps": [ { "who": "你", "text": "寫 deck.json", "human": true, "desc": "每頁的文字與旁白" },
+                 { "who": "系統", "text": "產旁白與字幕", "human": false, "desc": "只重產改過的段落，例如 SYS.2 那頁" },
+                 { "who": "系統", "text": "輸出影片與 PPT", "human": false, "desc": "同一份版型" } ],
+      "narration": "你寫好內容檔，系統產生旁白和字幕，只重產改過的段落，例如 SYS.2 那頁，最後輸出影片和 PPT。" }
+  ]
+}

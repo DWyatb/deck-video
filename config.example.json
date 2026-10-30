@@ -1,0 +1,4 @@
+{
+  "_comment": "複製成 config.json（不進 git）再填。kaggle_user 是你自己的 Kaggle 帳號名稱（網址 kaggle.com/<帳號>），不是金鑰；金鑰放 ~/.kaggle/access_token。",
+  "kaggle_user": "your-kaggle-username"
+}

@@ -1,0 +1,158 @@
+{
+  "_comment": "通用深藍模板。影片（src/deck/DeckVideo.tsx）與簡報（scripts/deck_pptx.py）都讀這一份，位置單位是英吋（投影片 13.333 x 7.5），字級單位是 pt。cover_bg.png／content_bg.png 是純色底加頁尾漸層色帶。",
+  "font": "Microsoft JhengHei",
+  "slide": {
+    "w": 13.333,
+    "h": 7.5
+  },
+  "backgrounds": {
+    "cover": "cover_bg.png",
+    "content": "content_bg.png"
+  },
+  "colors": {
+    "bg": "#14213d",
+    "white": "#ffffff",
+    "body": "#c9d1d9",
+    "label": "#8b98a5",
+    "accent": "#2ec4b6",
+    "coral": "#ff7f51",
+    "box": "#1b2b4a",
+    "boxLine": "#2f4570",
+    "rule": "#263a5c",
+    "digits": "#1a2a48"
+  },
+  "subtitle": {
+    "top_px": 1000,
+    "size_px": 38,
+    "bg": "rgba(10,18,32,0.78)",
+    "maxw_px": 1240
+  },
+  "layout": {
+    "page": {
+      "kicker": {
+        "x": 0.64,
+        "y": 0.3,
+        "w": 10,
+        "size": 14,
+        "spacing": 300
+      },
+      "title": {
+        "x": 0.64,
+        "y": 0.62,
+        "w": 10.3,
+        "size": 34
+      },
+      "pageNo": {
+        "x": 11.7,
+        "y": 7.08,
+        "w": 1.05,
+        "size": 12
+      }
+    },
+    "cover": {
+      "year": {
+        "x": 0.45,
+        "y": 1.55,
+        "w": 9.5,
+        "size": 190
+      },
+      "org": {
+        "x": 2.02,
+        "y": 2.32,
+        "w": 10,
+        "size": 20
+      },
+      "title": {
+        "x": 2.02,
+        "y": 2.75,
+        "w": 10.8,
+        "size": 44
+      },
+      "rule": {
+        "x": 2.02,
+        "y": 3.57,
+        "w": 0.92,
+        "h": 0.035
+      },
+      "subtitle": {
+        "x": 2.02,
+        "y": 3.85,
+        "w": 9.5,
+        "size": 20
+      }
+    },
+    "bullets": {
+      "x": 0.9,
+      "y": 1.75,
+      "w": 11,
+      "gap": 0.7,
+      "size": 22,
+      "dot": 0.13,
+      "dotDy": 0.14,
+      "textDx": 0.34,
+      "note": {
+        "y": 4.2,
+        "size": 14
+      }
+    },
+    "boxes": {
+      "x": 0.9,
+      "step": 4.0,
+      "y": 1.9,
+      "w": 3.5,
+      "h": 2.6,
+      "padX": 0.3,
+      "headY": 2.15,
+      "headSize": 24,
+      "linesY": 2.8,
+      "linesSize": 17,
+      "arrowY": 2.95,
+      "arrowW": 0.5,
+      "arrowSize": 26
+    },
+    "steps": {
+      "legendY": 1.42,
+      "legendDotY": 1.5,
+      "legendDot": 0.14,
+      "legendSize": 14,
+      "legendX": [
+        0.66,
+        1.96
+      ],
+      "legendTextDx": 0.22,
+      "y": 1.9,
+      "gap": 0.66,
+      "circleX": 0.75,
+      "circleDy": 0.06,
+      "circle": 0.4,
+      "numSize": 15,
+      "whoX": 1.35,
+      "whoDy": 0.09,
+      "whoSize": 15,
+      "textX": 2.55,
+      "textDy": 0.05,
+      "textSize": 19,
+      "descX": 6.85,
+      "descDy": 0.1,
+      "descW": 5.9,
+      "descSize": 14,
+      "ruleDy": 0.62,
+      "ruleX2": 12.7
+    },
+    "screen": {
+      "imgX": 0.64,
+      "imgY": 1.6,
+      "imgW": 8.3,
+      "gap": 0.4,
+      "pointY": 1.7,
+      "pointGap": 1.05,
+      "pointSize": 17,
+      "dot": 0.13,
+      "dotDy": 0.13,
+      "textDx": 0.32,
+      "rightEdge": 12.75,
+      "shotW": 1920,
+      "shotH": 1080
+    }
+  }
+}
