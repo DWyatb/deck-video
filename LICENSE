@@ -3,7 +3,7 @@
 Copyright (c) 2026 DWyatb
 
 本授權適用於本 repo 中由作者撰寫的程式碼、文件與素材（以下稱「本軟體」）。
-第三方軟體與模型（Remotion、BreezyVoice 等，見 README「來源與授權」）不在本授權範圍內，依各自的授權條款使用。
+第三方軟體與模型（見 THIRD_PARTY.md）不在本授權範圍內，依各自的授權條款使用。
 
 1. 允許：任何人可以為了「個人、非商業」目的，免費檢視、下載、執行與修改本軟體。
 2. 禁止商業使用：不得將本軟體或其修改版本用於任何商業目的，包括但不限於販售、出租、
@@ -19,8 +19,7 @@ Personal Non-Commercial License
 Copyright (c) 2026 DWyatb
 
 This license covers the code, documentation and assets written by the author in this repository
-(the "Software"). Third-party software and models (Remotion, BreezyVoice, etc.; see "來源與授權"
-in README) are not covered and are used under their own licenses.
+(the "Software"). Third-party software and models (see THIRD_PARTY.md) are not covered and are used under their own licenses.
 
 1. Permission is granted, free of charge, to view, download, run and modify the Software for
    personal, non-commercial purposes only.
